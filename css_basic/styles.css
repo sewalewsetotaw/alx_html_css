@@ -1,3 +1,12 @@
+.logo {
+    font-size: 3em;
+    text-align: center;
+    background-color: #8a2be2;
+    width: 1em;
+    height: 1em;
+    padding: 0 10px;
+    vertical-align: middle;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -12,8 +21,19 @@ article, aside {
 }
 article {
     flex: 2; 
+    background-color: #8a2be2;
 }
 aside {
-    flex: 1; 
-
+    flex: 1;    
+    background-color: rgb(110, 226, 43);
+}
+header, footer{
+    background-color: blanchedalmond;
+}
+header, footer, article, aside {
+    padding: 10px; 
+    border: 1px solid black;
+}
+li{
+    list-style: none;
 }
