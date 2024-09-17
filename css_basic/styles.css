@@ -1,11 +1,13 @@
 .logo {
-    font-size: 3em;
-    text-align: center;
-    background-color: #8a2be2;
-    width: 1em;
-    height: 1em;
-    padding: 0 10px;
-    vertical-align: middle;
+    font-size: 3em; 
+    background-color: #8a2be2; 
+    color: white; 
+    width: 1.5em; 
+    height: 1.5em; 
+    padding: 10px; 
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center; 
 }
 body {
     display: flex;
@@ -21,7 +23,7 @@ article, aside {
 }
 article {
     flex: 2; 
-    background-color: #8a2be2;
+    background-color: hsl(270, 12%, 90%);
 }
 aside {
     flex: 1;    
@@ -36,4 +38,18 @@ header, footer, article, aside {
 }
 li{
     list-style: none;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-size: 1em; 
+    text-align: left; 
+    background-color: #f9f9f9; 
+}
+
+th, td {
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
 }
