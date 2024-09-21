@@ -1,14 +1,18 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #979797; 
-    padding: 10px 20px;
     align-items: center;
     padding: 20px 50px; 
     color: white;
     z-index: 1;
     position: relative;
+    border: none;
+    margin: 0 70px 0 70px;
 }
 nav ul{
     list-style-type: none;
@@ -17,26 +21,32 @@ nav ul{
     gap: 20px;
 }
 nav ul li a{
-    text-decoration: none;
+    text-decoration: none;  
+    color: white;
 }
 .first-section {
     text-align: center;
     padding: 100px 20px; 
     color: white;
-    position: relative;
-    z-index: 1;
+    margin-top: -87px;
     background-image: url('Images/Object.png'); 
     background-position: center;
     padding-top: 20px; 
-    background-color: #979797;
+    background-size: cover;
 }
 
 .intro h2 {
-    font-size: 100px; 
+    font-size: 120px; 
     margin-bottom: 20px;
+    padding-top: 200px;
+    padding-left: -100px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    line-height: 2px;
+    text-align: center;
 }
-
 .first-section span {
+    padding-top: 35px;
     display: inline-block;
     margin: 10px;
     font-size: 24px; 
@@ -59,7 +69,8 @@ nav ul li a{
 .instructors{
     display: flex;
     justify-content: space-between;
-    padding: 2px;
+    padding: 45px;
+    margin: 0 70px -80px 70px;
 }
 .instructors div p{
     font-style: italic;
