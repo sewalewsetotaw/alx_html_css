@@ -10,10 +10,16 @@
 </head>
 <body>
     <header>
-        <div class="nav-bar">
+        <div class="nav-bar container">
+            <input type="checkbox" id="menu-toggle">
             <div class="navbar-icons">
-                <i class="bi bi-list"></i>
-                <i class="bi bi-x-lg"></i>
+                <!-- Use label to toggle checkbox and icons -->
+                <label for="menu-toggle" class="menu-icon">
+                    <img src="Images/menu.png" alt="Menu Icon" class="menu">
+                </label>
+                <label for="menu-toggle" class="close-icon">
+                    <img src="Images/close.png" alt="Close Icon" class="close">
+                </label>
             </div>
             <div class="navbar-logo">
                 <img src="/Images/logo.png" alt="Company Logo">
@@ -32,89 +38,5 @@
             <button>CALL TO ACTION</button>
             <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </section>
-        <section class="section-two">
-            <p>What we do</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <div class="media">
-                <div class="media-1">
-                    <img src="/Images/1.png" alt="">
-                    <p class="2">Lorem ipsum</p>
-                    <p class="8">Lorem ipsum, dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="media-2">
-                    <img src="/Images/2.png" alt="">
-                    <p class="2">Lorem ipsum</p>
-                    <p class="8">Lorem ipsum, dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="media-3">
-                    <img src="/Images/3.png" alt="">
-                    <p class="2">Lorem ipsum</p>
-                    <p class="8">Lorem ipsum, dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="media-4">
-                    <img src="/Images/4.png" alt="">
-                    <p class="2">Lorem ipsum</p>
-                    <p class="8">Lorem ipsum, dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </section>
-        <section class="section-three">
-            <div class="content">
-                <div>
-                    <p class="2">our results speak for themselves</p>
-                    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-                <div class="results">
-                    <div class="results-1">
-                        <img src="Images/Polygon Copy 2.png" alt="">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                    <div class="results-1">
-                        <img src="Images/Polygon Copy 2.png" alt="">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                    <div class="results-1">
-                        <img src="Images/Polygon Copy 2.png" alt="">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                    <div class="results-1">
-                        <img src="Images/Polygon Copy 2.png" alt="">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>  
-            </div>
-        </section>
-        <section class="contact-us">
-            <h2>Contct US</h2>
-            <div class="form">
-                <form action="#">
-                    <label for="name">Name</label> <br>
-                    <input type="text" name="name" id="name"><br>
-                    <label for="email">Email</label> <br>
-                    <input type="email" name="email" id="email"><br>
-                    <label for="message">Your Message</label> <br>
-                    <input type="text" name="message" id="message"><br>
-                    <button>CALL TO ACTION</button>
-                </form>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <section>
-            <div class="footer">
-                <img src="Images/logo.png" alt="logo">
-                <div class="social-links">
-                    <a href="#"><img src="Images/facebook.webp" alt="Facebook Icon"></a>
-                    <a href="#"><img src="Images/twitter.webp" alt="Twitter Icon"></a>
-                    <a href="#"><img src="Images/Instagram.webp" alt="Instagram Icon"></a>
-                </div>
-            </div>
-            <p>&copy; headphones 2020</p>
-        </section>
-    </footer>
 </body>
 </html>
