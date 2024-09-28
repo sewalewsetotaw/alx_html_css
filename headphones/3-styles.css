@@ -100,6 +100,67 @@ button:hover {
     padding: 20px;
     margin: auto;
 }
+.media{
+    display: flex;
+}
+.results{
+    display: flex;
+    justify-content: space-between;
+}
+.section-three {
+    position: relative;
+    background-color: #68696b;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.section-three::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(Images/background.png) left/cover;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+.section-three > * {
+    position: relative;
+    z-index: 1;
+}
+.contact-us {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 40px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+    background-color: transparent;
+}
 /* Responsive styling */
 @media (max-width: 768px) {
     .container{

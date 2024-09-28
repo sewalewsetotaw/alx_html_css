@@ -100,6 +100,9 @@ button:hover {
     padding: 20px;
     margin: auto;
 }
+.media{
+    display: flex;
+}
 /* Responsive styling */
 @media (max-width: 768px) {
     .container{
