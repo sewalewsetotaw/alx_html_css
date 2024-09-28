@@ -118,7 +118,11 @@ button:hover {
         max-width: 350px;
         margin: auto;
     }
-    
+    .navbar-logo {
+        display: flex;
+        justify-content: center; 
+        width: 100%; 
+    }
     .navbar-menu {
         display: none; /* Hide menu links on small screens */
     }
@@ -178,7 +182,7 @@ button:hover {
     }
 }
 /* Responsive styling */
-@media (max-width: 480) {
+@media (max-width: 480px) {
     .container {
         max-width: 350px;
         margin: auto;
@@ -222,24 +226,5 @@ button:hover {
         padding-left: 230px;
     }
 
-    .first-section h2 {
-        padding-top: 100px;
-        max-width: 50%;
-        font-size: 28px; 
-    }
-
-    #first-paragraph {
-        font-size: 250px;  
-        max-width: 50%;   
-        margin-left: auto;
-        margin-right: auto; 
-    }
-    #second-paragraph {
-        max-width: 90%;  
-        font-size: 16px; 
-        padding: 0 50px;
-        line-height: 1.5;
-        text-align: center;
-        margin-bottom: 100px;
-    }
+    
 }
