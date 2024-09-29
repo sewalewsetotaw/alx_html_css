@@ -124,14 +124,13 @@ button:hover {
         width: 100%; 
     }
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block; 
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -140,7 +139,6 @@ button:hover {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -149,7 +147,6 @@ button:hover {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -189,14 +186,13 @@ button:hover {
     }
     
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block;  
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -205,7 +201,6 @@ button:hover {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -214,7 +209,6 @@ button:hover {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -225,6 +219,4 @@ button:hover {
         position: fixed;
         padding-left: 230px;
     }
-
-    
 }

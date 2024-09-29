@@ -151,7 +151,7 @@ button:hover {
 .results{
     display: flex;
     justify-content: center;
-    gap: 20px; /* Increase the gap slightly */
+    gap: 20px; 
     flex-wrap: wrap;
     width: 100%; 
     padding: 20px;
@@ -181,14 +181,14 @@ button:hover {
     display: flex; 
     flex-direction: column;
     position: relative;
-    height: auto; /* Allow the section to adapt to the content's height */
+    height: auto; 
     align-items: center;
     justify-content: center;
     color: var(--color-white-100);
     background-color: #68696b;
     margin-top: 62px;
-    padding: 100px 20px; /* Add padding to space out the content */
-    overflow: hidden; /* Ensure content doesn't overflow when responsive */
+    padding: 100px 20px; 
+    overflow: hidden; 
 }
 .section-three::before {
     content: "";
@@ -227,14 +227,13 @@ button:hover {
         width: 100%; 
     }
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block; 
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -243,7 +242,6 @@ button:hover {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -252,7 +250,6 @@ button:hover {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -294,7 +291,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 1 1 calc(50% - 20px); /* Set each media item to take 50% width minus the gap */
+        flex: 1 1 calc(50% - 20px); 
     }
     .media-description{
         width: 100px;
@@ -320,14 +317,13 @@ button:hover {
         height: auto;
     }
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block; 
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -336,7 +332,6 @@ button:hover {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -345,7 +340,6 @@ button:hover {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -375,6 +369,6 @@ button:hover {
         align-items: center;
     }
     .results-1, .results-2, .results-3, .results-4 {
-        width: 100%; /* Each result takes 45% of the container's width */
+        width: 100%; 
     }
 }

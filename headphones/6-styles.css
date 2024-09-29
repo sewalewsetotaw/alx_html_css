@@ -151,7 +151,7 @@ button:hover {
 .results{
     display: flex;
     justify-content: center;
-    gap: 20px; /* Increase the gap slightly */
+    gap: 20px; 
     flex-wrap: wrap;
     width: 100%; 
     padding: 20px;
@@ -187,14 +187,14 @@ button:hover {
     display: flex; 
     flex-direction: column;
     position: relative;
-    height: auto; /* Allow the section to adapt to the content's height */
+    height: auto; 
     align-items: center;
     justify-content: center;
     color: var(--color-white-100);
     background-color: #68696b;
     margin-top: 62px;
-    padding: 100px 20px; /* Add padding to space out the content */
-    overflow: hidden; /* Ensure content doesn't overflow when responsive */
+    padding: 100px 20px; 
+    overflow: hidden; 
 }
 .section-three::before {
     content: "";
@@ -228,9 +228,9 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    justify-content: center; /* Vertically center the form */
-    align-items: center; /* Horizontally center the form */
-    height: 100vh; /* Set the height to the full viewport */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .contact-us h2 {
@@ -243,27 +243,27 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px; /* Add a gap between each form element */
+    gap: 20px; 
 }
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px; /* Gap between form elements */
+    gap: 20px; 
 }
 
 label {
     font-size: 1rem;
     color: #333;
-    margin-bottom: 8px; /* Space between label and input */
-    padding-top: 3px; /* Space between input field and next label */
+    margin-bottom: 8px; 
+    padding-top: 3px; 
     font-weight: var(--font-weight);
 }
 
 input[type="text"],
 input[type="email"] {
     width: 400px;
-    margin-bottom: 10px; /* Space after each input field */
+    margin-bottom: 10px; 
     border: none;
     padding-top: 1px;
     border-bottom: 2px solid #ccc;
@@ -315,7 +315,7 @@ footer section {
     transition: transform 0.3s ease;
 }
 .social-links img:hover {
-    transform: scale(1.1); /* Slight zoom on hover */
+    transform: scale(1.1); 
 }
 footer p {
     font-size: 0.9em;
@@ -334,14 +334,13 @@ footer p {
         width: 100%; 
     }
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block; 
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -350,7 +349,6 @@ footer p {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -359,7 +357,6 @@ footer p {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -401,7 +398,7 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex: 1 1 calc(50% - 20px); /* Set each media item to take 50% width minus the gap */
+        flex: 1 1 calc(50% - 20px); 
     }
     .media-description{
         width: 100px;
@@ -428,14 +425,13 @@ footer p {
         height: auto;
     }
     .navbar-menu {
-        display: none; /* Hide menu links on small screens */
+        display: none; 
     }
 
     .navbar-icons {
-        display: block; /* Show the navbar-icons on small screens */
+        display: block; 
     }
 
-    /* By default, show the menu icon */
     .menu-icon {
         display: block;
     }
@@ -444,7 +440,6 @@ footer p {
         display: none;
     }
 
-    /* When the checkbox is checked, hide the menu icon and show the close icon */
     #menu-toggle:checked ~ .navbar-icons .menu-icon {
         display: none;
     }
@@ -453,7 +448,6 @@ footer p {
         display: block;
     }
 
-    /* When the checkbox is checked, show the navbar menu */
     #menu-toggle:checked ~ .navbar-menu {
         display: flex;
         flex-direction: column;
@@ -483,7 +477,7 @@ footer p {
         align-items: center;
     }
     .results-1, .results-2, .results-3, .results-4 {
-        width: 65%; /* Each result takes 45% of the container's width */
+        width: 65%; 
     }
     .contact-us {
         max-width: 90%;
@@ -492,17 +486,17 @@ footer p {
 
     input[type="text"],
     input[type="email"] {
-        width: 100%; /* Input fields take full width on smaller screens */
+        width: 100%; 
         font-size: 1rem;
     }
     .footer {
-        flex-direction: column; /* Stack elements vertically */
-        margin-right: 0; /* Remove margin for smaller screens */
+        flex-direction: column; 
+        margin-right: 0; 
         text-align: center;
     }
 
     .footer img {
-        max-height: 40px; /* Slightly smaller logo for smaller screens */
+        max-height: 40px; 
         padding-top: 20px;
     }
     .social-links {
@@ -510,6 +504,6 @@ footer p {
     }
     footer p {
         padding-top: 20px;
-        font-size: 0.8em; /* Reduce the font size on small screens */
+        font-size: 0.8em; 
     }
 }
